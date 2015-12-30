@@ -11,3 +11,11 @@ Since this is an intro course, I expect most of it will be review, but that's ok
   - simple shell scripts
   - defaults are appended with ```.sample``` 
   - I suppose removing the file extension would activate them
+
+- use of the ```.gitignore```
+  - can put ```.gitignore``` files in any folder under source control, but his preference is to keep it at the root and consolidated there
+    - mine too, fwiw
+  - ```./.git/info/exclude```
+    - is not checked in, unlike ```.gitignore```
+    - can be used for local cases that will not apply to others using the repo
+
