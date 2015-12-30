@@ -25,6 +25,14 @@ Since this is an intro course, I expect most of it will be review, but that's ok
 - ```git rm <filespec>```
   - does it delete the file from the director?
   - testing with the creation of a scratch file and committing
+    - added scratch
+    - added to tracking
+    - committed it
+    - pushed to master
+    - issue ```git rm scratch```
+      - ```git status``` shows message that scratch has been deleted
+      - it is also removed from the file system
+      - **might be good to find out how to just stop tracking the file without deleting it from the FS**
 
 
 -----
