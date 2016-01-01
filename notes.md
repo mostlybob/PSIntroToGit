@@ -1,4 +1,21 @@
 # Introduction to Git
+## 2016-01-01
+### Basic Commands
+- some overlap from before
+- ```.gitignore```
+- ```./.git/info/exclude```
+- ```git add .```
+- ```git status```
+- ```git commit -m```
+- ```git ls-files```
+  - a new one for me
+  - shows files currently being tracked in the git repo
+  - shows possible files for addition to ```.gitignore```
+  - remove those files with ```git rm <file>```
+- ```git commit -a```
+  - shows editor interface for adding messages to commit
+  - I'm a bit out of practice, since I mostly use ```git commit -am <commit message>```
+
 ## 2015-12-30
 Since this is an intro course, I expect most of it will be review, but that's ok. Since we're using it at work, I suspect there might be a few blank spots in my knowledge. As I find them, I want to mark them here. 
 
