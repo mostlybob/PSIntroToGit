@@ -31,7 +31,7 @@
 - ```git commit -va``` to see contents with commit message
 - interesting to watch ```gitk``` as I switch between branches
 - his example of continuing to work on the master branch would need a file on ```master``` (not this file - trying to avoid merge conflicts) that was also on ```human``` to illustrate the "branching" observed in ```gitk``` when different files on the respective branches are being edited
-- noting how editing files on different branches will affect the view in gitk
+- (this is a side note on my own fiddling around) as expected, I made a change to this file on ```master``` (fixed the markdown starting on this Branches section) and when I tried to merge it to ```human``` it had conflicts that had to be resolved. Lesson learned. 
 
 ## 2016-01-01
 ### Basic Commands
