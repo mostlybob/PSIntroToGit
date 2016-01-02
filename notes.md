@@ -9,6 +9,7 @@
   - ```--stat``` adds some more detail to what happened in each commit
   - ```-p``` adds actual content of change
     - this one's a lot more verbose
+
 ### Branches
 - using ```gitk```
   - my install doesn't include it (Korora 23)
@@ -23,6 +24,8 @@
   - I guess I'll use this notes file do that
 - ```git branch human```
   - creates the branch without switching to it
+- ```git checkout human```
+  - checks it out
 - ok, turns out I do want a file that is specific to this branch
   - creating a new file ```human.rb``` to follow along with his example
 - ```git commit -va``` to see contents with commit message
