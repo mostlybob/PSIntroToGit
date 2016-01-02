@@ -26,6 +26,9 @@
   - creates the branch without switching to it
 - ```git checkout human```
   - checks it out
+- ok, turns out I do want a file that is specific to this branch
+  - creating a new file ```human.rb``` to follow along with his example
+- ```git commit -va``` to see contents with commit message
 
 ## 2016-01-01
 ### Basic Commands
