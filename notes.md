@@ -3,6 +3,25 @@
 ### Basic Commands (cont'd)
 - ```git commit -v```
   - adds a diff in the commit message
+    - I found I had to do ```-va``` since ```-v``` on its own caused git to complain about unstaged changes
+- ```git log```
+  - shows a log of commits with excerpts of commit messages
+  - ```--stat``` adds some more detail to what happened in each commit
+  - ```-p``` adds actual content of change
+    - this one's a lot more verbose
+### Branches
+- using ```gitk```
+  - my install doesn't include it (Korora 23)
+    - ```sudo dnf install gitk``` fixed that
+  - ```~/.gitk``` to edit settings
+    - esp font face & size
+    - I don't appear to have one, by default, but I can create it
+      - another dotfile to think about tightening up my management of :P
+    - doesn't appear to have any effect, but the app does have a way to change settings through the UI, so I'm not going to fuss with this
+- why branch?
+- to ease following along, I'll use the branch names he does on this repo
+  - I guess I'll use this notes file do that
+- created ```human``` branch
 
 ## 2016-01-01
 ### Basic Commands
