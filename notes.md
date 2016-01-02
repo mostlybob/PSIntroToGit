@@ -1,7 +1,8 @@
 # Introduction to Git
 ## 2016-01-02
 ### Basic Commands (cont'd)
-- 
+- ```git commit -v```
+  - adds a diff in the commit message
 
 ## 2016-01-01
 ### Basic Commands
