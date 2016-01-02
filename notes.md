@@ -30,6 +30,8 @@
   - creating a new file ```human.rb``` to follow along with his example
 - ```git commit -va``` to see contents with commit message
 - interesting to watch ```gitk``` as I switch between branches
+- his example of continuing to work on the master branch would need a file on ```master``` (not this file - trying to avoid merge conflicts) that was also on ```human``` to illustrate the "branching" observed in ```gitk``` when different files on the respective branches are being edited
+- noting how editing files on different branches will affect the view in gitk
 
 ## 2016-01-01
 ### Basic Commands
