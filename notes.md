@@ -26,6 +26,7 @@
 - ok, turns out I do want a file that is specific to this branch
   - creating a new file ```human.rb``` to follow along with his example
 - ```git commit -va``` to see contents with commit message
+- interesting to watch ```gitk``` as I switch between branches
 
 
 
