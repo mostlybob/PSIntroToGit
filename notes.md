@@ -9,6 +9,7 @@
   - ```--stat``` adds some more detail to what happened in each commit
   - ```-p``` adds actual content of change
     - this one's a lot more verbose
+
 ### Branches
 - using ```gitk```
   - my install doesn't include it (Korora 23)
