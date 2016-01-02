@@ -21,7 +21,8 @@
 - why branch?
 - to ease following along, I'll use the branch names he does on this repo
   - I guess I'll use this notes file do that
-- created ```human``` branch
+- ```git branch human```
+  - creates the branch without switching to it
 
 ## 2016-01-01
 ### Basic Commands
