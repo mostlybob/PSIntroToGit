@@ -1,4 +1,8 @@
 # Introduction to Git
+## 2016-01-02
+### Basic Commands (cont'd)
+- 
+
 ## 2016-01-01
 ### Basic Commands
 - some overlap from before
