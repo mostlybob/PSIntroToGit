@@ -7,6 +7,13 @@
   - my local stuff is sufficiently different from what he's doing in the video, I'm not entirely sure how it's going to go
   - ```rebase``` is one of those things I've never quite got the hang of
   - just to be safe, I'm committing here
+- that was fun (not, but educational)
+  - not surprisingly, my work on ```notes.md``` on different branches caused trouble with the rebase, with multiple conflicts needing to be resolved
+  - here's something learned about conflicts, esp. during rebase:
+    - the last line, with the ```>>>>>>>>``` (something like anyway), shows the commit message, not something from the file itself
+    - once the file is how you want it, issue ```git add <filespec>``` before ```git rebase --continue```
+      - may have to resolve successive conflicts until the whole file is fixed
+  - all is (apparently) well; time to commit and resolve (heh) not to fiddle with ```notes.md``` on different branches again
 
 ## 2016-01-02
 ### Basic Commands (cont'd)
