@@ -1,4 +1,13 @@
 # Introduction to Git
+## 2016-01-03
+### Branches (cont'd)
+- created file on master & committed
+  - now shows the divergence in ```gitk```
+- demonstrate ```rebase```
+  - my local stuff is sufficiently different from what he's doing in the video, I'm not entirely sure how it's going to go
+  - ```rebase``` is one of those things I've never quite got the hang of
+  - just to be safe, I'm committing here
+
 ## 2016-01-02
 ### Basic Commands (cont'd)
 - ```git commit -v```
