@@ -1,4 +1,14 @@
 # Introduction to Git
+## 2016-01-04
+### Branching (cont'd)
+- ```git diff <branch1> <branch2>```
+  - diffs between branches
+  - by his comment ```<branch1>``` would be the prospective target of the merge
+  - cute trick with the piping to text editor (```git diff master human | subl```), but I couldn't get it to work with either sublime or vim
+- ```git merge human``` from the ```master``` branch will bring the commits from ```human``` into ```master```
+  - I'm a bit unsure why do the rebase from earlier in this section as opposed to just doing a merge from ```human``` to ```master```, as he's doing here
+  - guess I need to brush up on my ```rebase``` use cases
+
 ## 2016-01-02
 ### Basic Commands (cont'd)
 - ```git commit -v```
