@@ -12,6 +12,24 @@
   - doing this one made me a little nervous, but it looks like it it put master to just before the merge 
     - I think that's true; my entry from 2016-01-03 is missing in the view of the notes file that I'm looking at as of this writing
     - if I'm right, then I expect to have to resolve some conflicts when I redo the merge because of these notes I'm adding about the ```ORIG_HEAD```
+    - (yep, I was right)
+
+## 2016-01-03
+### Branches (cont'd)
+- created file on master & committed
+  - now shows the divergence in ```gitk```
+- demonstrate ```rebase```
+  - my local stuff is sufficiently different from what he's doing in the video, I'm not entirely sure how it's going to go
+  - ```rebase``` is one of those things I've never quite got the hang of
+  - just to be safe, I'm committing here
+- that was fun (not, but educational)
+  - not surprisingly, my work on ```notes.md``` on different branches caused trouble with the rebase, with multiple conflicts needing to be resolved
+
+  - here's something learned about conflicts, esp. during rebase:
+    - the last line, with the ```>>>>>>>>``` (something like anyway), shows the commit message, not something from the file itself
+    - once the file is how you want it, issue ```git add <filespec>``` before ```git rebase --continue```
+      - may have to resolve successive conflicts until the whole file is fixed
+  - all is (apparently) well; time to commit and resolve (heh) not to fiddle with ```notes.md``` on different branches again
 
 ## 2016-01-02
 ### Basic Commands (cont'd)
@@ -40,6 +58,12 @@
   - creates the branch without switching to it
 - ```git checkout human```
   - checks it out
+- ok, turns out I do want a file that is specific to this branch
+  - creating a new file ```human.rb``` to follow along with his example
+- ```git commit -va``` to see contents with commit message
+- interesting to watch ```gitk``` as I switch between branches
+- his example of continuing to work on the master branch would need a file on ```master``` (not this file - trying to avoid merge conflicts) that was also on ```human``` to illustrate the "branching" observed in ```gitk``` when different files on the respective branches are being edited
+- (this is a side note on my own fiddling around) as expected, I made a change to this file on ```master``` (fixed the markdown starting on this Branches section) and when I tried to merge it to ```human``` it had conflicts that had to be resolved. Lesson learned. 
 
 ## 2016-01-01
 ### Basic Commands
