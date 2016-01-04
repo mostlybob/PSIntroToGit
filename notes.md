@@ -1,4 +1,7 @@
 # Introduction to Git
+
+- leaving off at Branches 11:54
+
 ## 2016-01-04
 ### Branching (cont'd)
 - ```git diff <branch1> <branch2>```
