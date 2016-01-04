@@ -8,6 +8,10 @@
 - ```git merge human``` from the ```master``` branch will bring the commits from ```human``` into ```master```
   - I'm a bit unsure why do the rebase from earlier in this section as opposed to just doing a merge from ```human``` to ```master```, as he's doing here
   - guess I need to brush up on my ```rebase``` use cases
+- ```git reset --hard ORIG_HEAD```
+  - doing this one made me a little nervous, but it looks like it it put master to just before the merge 
+    - I think that's true; my entry from 2016-01-03 is missing in the view of the notes file that I'm looking at as of this writing
+    - if I'm right, then I expect to have to resolve some conflicts when I redo the merge because of these notes I'm adding about the ```ORIG_HEAD```
 
 ## 2016-01-02
 ### Basic Commands (cont'd)
